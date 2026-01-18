@@ -42,7 +42,7 @@ class ParallaxItemWidget extends StatelessWidget {
         scrollable: Scrollable.of(context),
       ),
       children: [
-        Image.network(imageUrl, key: _backgroundImageKey, fit: BoxFit.cover),
+        Image.asset(imageUrl, key: _backgroundImageKey, fit: BoxFit.cover),
       ],
     );
   }
